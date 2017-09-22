@@ -504,17 +504,55 @@ template {
    .container {
   max-width: 960px;
   margin: 0 auto;
-  background-color: #F4D03F  ;
+  background-color: #F4D03F;
+  border: .25em solid #2C3E50;
+  max-width:960px;
+  margin:0 auto;
+  font-family: 'Times New Roman', sans-serif;
+  
+  
+  
 }
+
+
+
 
 .head1{
-  font-size: 3em;
-  text-align: center;
-}
-
-.head2 {
   font-size: 2.5em;
   text-align: center;
 }
 
+.head2 {  
+  font-size: 2.0em;
+  text-align: center;
+}
 
+p {
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+form {
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+
+.button {
+  font-size: 2em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+  max-width: 960px;
+  margin: 0 auto;
+  
+  
